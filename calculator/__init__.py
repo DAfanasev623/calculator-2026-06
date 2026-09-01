@@ -4,7 +4,7 @@ Welcome to super calculator
 """
 
 try:
-    from .sum import sum
+    from .sum import sum  # pylint: disable=redefined-builtin
 except ModuleNotFoundError:
     print('sum not found')
 try:
