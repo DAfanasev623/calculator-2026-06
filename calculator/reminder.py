@@ -1,5 +1,5 @@
-"""reminder"""
+"""Документация для модуля reminder"""
 
 def reminder(a, b):
-    """function for reminder"""
+    """Документация для функции: остаток от деления числа a на число b"""
     return a % b
